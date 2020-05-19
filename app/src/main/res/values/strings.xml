@@ -7,6 +7,9 @@
     <string name="subject">subject</string>
     <string name="message">message</string>
     <string name="send">send</string>
+    <string name="l1">我是左1</string>
+    <string name="med">我在中间</string>
+    <string name="r1">我在右边</string>
 
     <!--这是一个字符串资源文件，您可在此文件中指定所有界面字符串。该文件可让您在一个位置管理所有界面字符串，使字符串的查找，更新和本地化变得更加容易 -->
     <!--Edit translations for all locales in the translaitns eiditon 右边出现Open editior-->
