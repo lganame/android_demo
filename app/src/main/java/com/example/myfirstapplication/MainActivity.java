@@ -18,27 +18,27 @@ public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSA
         setContentView(R.layout.activity_main);
     }
     /** Called when the user tags the Send button */
-    public void sendMessage(View view){
-        //Do something in response to button
-        //System.out.println("点击了发送消息");
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText) findViewById(R.id.editText);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE,message);
-        startActivity(intent);
-        //Intent intent = new Intent(this, DisplayManagerAct.class);
-    }
     //线性布局
     public void startLinearLayoutV(View view){
-        Intent intent = new Intent(this,LinearLayoutV.class);
-        startActivity(intent);
+        try {
+            Intent intent = new Intent(this,LinearLayoutV.class);
+            startActivity(intent);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
     }
 
 
     //表格布局
     public void startTableLayout(View view){
-        Intent intent = new Intent(this, TableLayout.class);
-        startActivity(intent);
+        try {
+            Intent intent = new Intent(this, TableLayout.class);
+            startActivity(intent);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
     }
 
     //

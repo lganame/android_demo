@@ -619,39 +619,39 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int action_bar = 0x7f070007;
-        public static final int action_bar_activity_content = 0x7f070008;
-        public static final int action_bar_container = 0x7f070009;
-        public static final int action_bar_root = 0x7f07000a;
-        public static final int action_bar_spinner = 0x7f07000b;
-        public static final int action_bar_subtitle = 0x7f07000c;
-        public static final int action_bar_title = 0x7f07000d;
-        public static final int action_container = 0x7f07000e;
-        public static final int action_context_bar = 0x7f07000f;
-        public static final int action_divider = 0x7f070010;
-        public static final int action_image = 0x7f070011;
-        public static final int action_menu_divider = 0x7f070012;
-        public static final int action_menu_presenter = 0x7f070013;
-        public static final int action_mode_bar = 0x7f070014;
-        public static final int action_mode_bar_stub = 0x7f070015;
-        public static final int action_mode_close_button = 0x7f070016;
-        public static final int action_text = 0x7f070017;
-        public static final int actions = 0x7f070018;
-        public static final int activity_chooser_view_content = 0x7f070019;
-        public static final int add = 0x7f07001a;
-        public static final int alertTitle = 0x7f07001d;
-        public static final int async = 0x7f070020;
-        public static final int blocking = 0x7f070024;
-        public static final int bottom = 0x7f070025;
-        public static final int buttonPanel = 0x7f070027;
-        public static final int checkbox = 0x7f07002d;
-        public static final int chronometer = 0x7f07002e;
-        public static final int content = 0x7f070032;
-        public static final int contentPanel = 0x7f070033;
-        public static final int custom = 0x7f070034;
-        public static final int customPanel = 0x7f070035;
-        public static final int decor_content_parent = 0x7f070037;
-        public static final int default_activity_button = 0x7f070038;
+        public static final int action_bar = 0x7f070008;
+        public static final int action_bar_activity_content = 0x7f070009;
+        public static final int action_bar_container = 0x7f07000a;
+        public static final int action_bar_root = 0x7f07000b;
+        public static final int action_bar_spinner = 0x7f07000c;
+        public static final int action_bar_subtitle = 0x7f07000d;
+        public static final int action_bar_title = 0x7f07000e;
+        public static final int action_container = 0x7f07000f;
+        public static final int action_context_bar = 0x7f070010;
+        public static final int action_divider = 0x7f070011;
+        public static final int action_image = 0x7f070012;
+        public static final int action_menu_divider = 0x7f070013;
+        public static final int action_menu_presenter = 0x7f070014;
+        public static final int action_mode_bar = 0x7f070015;
+        public static final int action_mode_bar_stub = 0x7f070016;
+        public static final int action_mode_close_button = 0x7f070017;
+        public static final int action_text = 0x7f070018;
+        public static final int actions = 0x7f070019;
+        public static final int activity_chooser_view_content = 0x7f07001a;
+        public static final int add = 0x7f07001b;
+        public static final int alertTitle = 0x7f07001e;
+        public static final int async = 0x7f070021;
+        public static final int blocking = 0x7f070025;
+        public static final int bottom = 0x7f070026;
+        public static final int buttonPanel = 0x7f070028;
+        public static final int checkbox = 0x7f07002e;
+        public static final int chronometer = 0x7f07002f;
+        public static final int content = 0x7f070033;
+        public static final int contentPanel = 0x7f070034;
+        public static final int custom = 0x7f070035;
+        public static final int customPanel = 0x7f070036;
+        public static final int decor_content_parent = 0x7f070038;
+        public static final int default_activity_button = 0x7f070039;
         public static final int edit_query = 0x7f07003d;
         public static final int end = 0x7f07003e;
         public static final int expand_activities_button = 0x7f070040;
@@ -715,15 +715,15 @@ public final class R {
         public static final int text2 = 0x7f070094;
         public static final int textSpacerNoButtons = 0x7f070095;
         public static final int textSpacerNoTitle = 0x7f070096;
-        public static final int time = 0x7f070098;
-        public static final int title = 0x7f070099;
-        public static final int titleDividerNoCustom = 0x7f07009a;
-        public static final int title_template = 0x7f07009b;
-        public static final int top = 0x7f07009c;
-        public static final int topPanel = 0x7f07009d;
-        public static final int uniform = 0x7f07009e;
-        public static final int up = 0x7f07009f;
-        public static final int wrap_content = 0x7f0700a4;
+        public static final int time = 0x7f07009b;
+        public static final int title = 0x7f07009c;
+        public static final int titleDividerNoCustom = 0x7f07009d;
+        public static final int title_template = 0x7f07009e;
+        public static final int top = 0x7f07009f;
+        public static final int topPanel = 0x7f0700a0;
+        public static final int uniform = 0x7f0700a1;
+        public static final int up = 0x7f0700a2;
+        public static final int wrap_content = 0x7f0700a7;
     }
     public static final class integer {
         private integer() {}
@@ -765,16 +765,16 @@ public final class R {
         public static final int abc_search_view = 0x7f090019;
         public static final int abc_select_dialog_material = 0x7f09001a;
         public static final int abc_tooltip = 0x7f09001b;
-        public static final int notification_action = 0x7f09001e;
-        public static final int notification_action_tombstone = 0x7f09001f;
-        public static final int notification_template_custom_big = 0x7f090026;
-        public static final int notification_template_icon_group = 0x7f090027;
-        public static final int notification_template_part_chronometer = 0x7f09002b;
-        public static final int notification_template_part_time = 0x7f09002c;
-        public static final int select_dialog_item_material = 0x7f09002d;
-        public static final int select_dialog_multichoice_material = 0x7f09002e;
-        public static final int select_dialog_singlechoice_material = 0x7f09002f;
-        public static final int support_simple_spinner_dropdown_item = 0x7f090030;
+        public static final int notification_action = 0x7f090021;
+        public static final int notification_action_tombstone = 0x7f090022;
+        public static final int notification_template_custom_big = 0x7f090029;
+        public static final int notification_template_icon_group = 0x7f09002a;
+        public static final int notification_template_part_chronometer = 0x7f09002e;
+        public static final int notification_template_part_time = 0x7f09002f;
+        public static final int select_dialog_item_material = 0x7f090030;
+        public static final int select_dialog_multichoice_material = 0x7f090031;
+        public static final int select_dialog_singlechoice_material = 0x7f090032;
+        public static final int support_simple_spinner_dropdown_item = 0x7f090033;
     }
     public static final class string {
         private string() {}
@@ -818,8 +818,8 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f0b0024;
         public static final int abc_shareactionprovider_share_with_application = 0x7f0b0025;
         public static final int abc_toolbar_collapse_description = 0x7f0b0026;
-        public static final int search_menu_title = 0x7f0b003d;
-        public static final int status_bar_notification_info_overflow = 0x7f0b003e;
+        public static final int search_menu_title = 0x7f0b0041;
+        public static final int status_bar_notification_info_overflow = 0x7f0b0043;
     }
     public static final class style {
         private style() {}
