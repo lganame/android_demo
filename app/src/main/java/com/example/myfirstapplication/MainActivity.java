@@ -27,4 +27,9 @@ public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSA
         startActivity(intent);
         //Intent intent = new Intent(this, DisplayManagerAct.class);
     }
+    public void  jumpwebview(View view){
+
+        Intent intent = new Intent( this,WebViewActivity.class);
+        startActivity(intent);
+    }
 }
