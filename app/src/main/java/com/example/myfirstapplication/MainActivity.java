@@ -16,20 +16,9 @@ public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSA
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    /** Called when the user tags the Send button */
-    public void sendMessage(View view){
-        //Do something in response to button
-        //System.out.println("点击了发送消息");
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText) findViewById(R.id.editText);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE,message);
+public void startCurrentPoistion(View view){
+        Intent intent = new Intent(this,CurrentPosition.class);
         startActivity(intent);
-        //Intent intent = new Intent(this, DisplayManagerAct.class);
-    }
-    public void  jumpwebview(View view){
+}
 
-        Intent intent = new Intent( this,WebViewActivity.class);
-        startActivity(intent);
-    }
 }

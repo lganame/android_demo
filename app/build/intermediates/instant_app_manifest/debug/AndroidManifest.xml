@@ -9,9 +9,10 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -28,7 +29,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.myfirstapplication.WebViewActivity"
+            android:name="com.example.myfirstapplication.CurrentPosition"
             android:parentActivityName="com.example.myfirstapplication.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
