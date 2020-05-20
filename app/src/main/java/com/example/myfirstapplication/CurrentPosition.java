@@ -1,6 +1,9 @@
 package com.example.myfirstapplication;
 
 import android.os.Bundle;
+import android.webkit.GeolocationPermissions;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
@@ -16,16 +19,20 @@ public class CurrentPosition extends AppCompatActivity {
         setContentView(R.layout.current_position);
         //获得控件
         WebView webView = (WebView) findViewById(R.id.webview);
-        webView.loadUrl("https://baidu.com");
-        //系统默认会通过手机浏览器打开网页，为了能够直接通过WebView显示网页，则必须设置
-        webView.setWebViewClient(new WebViewClient() {
+          WebSettings webSettings = webView.getSettings();
+        //如果访问的页面中要与Javascript交互，则webview必须设置支持Javascript
+
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setDomStorageEnabled(true);
+        webView.setWebChromeClient(new WebChromeClient() {
             @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                //使用WebView加载显示url
-                view.loadUrl(url);
-                //返回true
-                return true;
+            public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
+                callback.invoke(origin, true, false);
+                super.onGeolocationPermissionsShowPrompt(origin, callback);
             }
         });
+
+        webView.loadUrl("https://www.mathjjulgana.xyz:8443/Documents/code/prod/whereisme.html");
+        //系统默认会通过手机浏览器打开网页，为了能够直接通过WebView显示网页，则必须设置
     }
 }
