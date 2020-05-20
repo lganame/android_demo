@@ -7,7 +7,6 @@ import android.hardware.display.DisplayManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TableLayout;
 
 
 public class MainActivity extends AppCompatActivity {

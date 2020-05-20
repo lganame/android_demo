@@ -28,6 +28,13 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.myfirstapplication.TableLayout"
+            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name="com.example.myfirstapplication.DisplayMessageActivity"
             android:parentActivityName="com.example.myfirstapplication.MainActivity" >
             <meta-data
