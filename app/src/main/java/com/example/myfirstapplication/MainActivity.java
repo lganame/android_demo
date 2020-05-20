@@ -40,5 +40,13 @@ public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSA
         }
     }
 
-    //
+    //表格布局stretch
+    public void startTableStretchLayout(View view){
+        try {
+        Intent intent = new Intent(this,TableLayoutStretch.class);
+            startActivity(intent);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
 }

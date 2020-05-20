@@ -751,6 +751,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id button2
 id buttonPanel
 id cancel_action
@@ -939,6 +940,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tablelayout
+layout tablelayoutstretch
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
