@@ -49,4 +49,14 @@ public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSA
             System.out.println(e.getMessage());
         }
     }
+
+    //表格布局收缩列
+    public void startTableShrinkLayout(View view){
+        try {
+            Intent intent = new Intent(this, TableLayoutShrink.class);
+            startActivity(intent);
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
 }

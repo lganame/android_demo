@@ -112,6 +112,10 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_tablelayoutshrink.xml.flat",
+        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\tablelayoutshrink.xml"
+    },
+    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\5530aaca1a1eacac058d447633f32067\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
@@ -708,12 +712,12 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
