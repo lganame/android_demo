@@ -27,7 +27,7 @@
 18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
 19
 20    <application
-20-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:5:5-24:19
+20-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:5:5-25:19
 21        android:allowBackup="true"
 21-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:6:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -40,73 +40,75 @@
 26        android:roundIcon="@mipmap/ic_launcher_round"
 26-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:9:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:10:9-35
+27-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:11:10-36
 28        android:testOnly="true"
-29        android:theme="@style/AppTheme" >
-29-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:11:9-40
-30        <activity
-30-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:12:9-14:20
-31            android:name="com.example.myfirstapplication.CurrentPosition"
-31-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:12:19-50
-32            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
-32-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:12:51-93
-33            <meta-data
-33-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:13-104
-34                android:name="android.support.PARENT_ACTIVITY"
-34-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:24-70
-35                android:value=".MainActivity" />
-35-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:73-102
-36        </activity>
-37        <activity
-37-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:9-17:20
-38            android:name="com.example.myfirstapplication.DisplayMessageActivity"
-38-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:19-57
-39            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
-39-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:58-100
-40            <meta-data
-40-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:13-104
-41                android:name="android.support.PARENT_ACTIVITY"
-41-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:24-70
-42                android:value=".MainActivity" />
-42-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:73-102
-43        </activity>
-44        <activity android:name="com.example.myfirstapplication.MainActivity" >
-44-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:9-23:20
-44-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:19-47
-45            <intent-filter>
-45-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:19:13-22:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:20:17-69
-46-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:20:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:17-77
-48-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:27-74
-49            </intent-filter>
-50        </activity>
-51        <!-- Needs to be explicitly declared on P+ -->
-52        <uses-library
-52-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
-53            android:name="org.apache.http.legacy"
-53-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
-54            android:required="false" />
-54-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
-55
-56        <activity
-56-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-57-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-58            android:exported="false"
-58-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-59-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-60
-61        <meta-data
-61-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-62            android:name="com.google.android.gms.version"
-62-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-63            android:value="@integer/google_play_services_version" />
-63-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-64    </application>
-65
-66</manifest>
+29        android:theme="@style/AppTheme"
+29-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:12:9-40
+30        android:usesCleartextTraffic="true" >
+30-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:10:9-44
+31        <activity
+31-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:9-15:20
+32            android:name="com.example.myfirstapplication.CurrentPosition"
+32-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:19-50
+33            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+33-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:51-93
+34            <meta-data
+34-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:13-104
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:24-70
+36                android:value=".MainActivity" />
+36-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:73-102
+37        </activity>
+38        <activity
+38-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:16:9-18:20
+39            android:name="com.example.myfirstapplication.DisplayMessageActivity"
+39-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:16:19-57
+40            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+40-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:16:58-100
+41            <meta-data
+41-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:13-104
+42                android:name="android.support.PARENT_ACTIVITY"
+42-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:24-70
+43                android:value=".MainActivity" />
+43-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:73-102
+44        </activity>
+45        <activity android:name="com.example.myfirstapplication.MainActivity" >
+45-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:19:9-24:20
+45-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:19:19-47
+46            <intent-filter>
+46-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:20:13-23:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:17-69
+47-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:22:17-77
+49-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:22:27-74
+50            </intent-filter>
+51        </activity>
+52        <!-- Needs to be explicitly declared on P+ -->
+53        <uses-library
+53-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+54            android:name="org.apache.http.legacy"
+54-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+55            android:required="false" />
+55-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+65    </application>
+66
+67</manifest>
