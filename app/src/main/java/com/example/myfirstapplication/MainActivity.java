@@ -7,6 +7,7 @@ import android.hardware.display.DisplayManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TableLayout;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -27,4 +28,18 @@ public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSA
         startActivity(intent);
         //Intent intent = new Intent(this, DisplayManagerAct.class);
     }
+    //线性布局
+    public void startLinearLayoutV(View view){
+        Intent intent = new Intent(this,LinearLayoutV.class);
+        startActivity(intent);
+    }
+
+
+    //表格布局
+    public void startTableLayout(View view){
+        Intent intent = new Intent(this, TableLayout.class);
+        startActivity(intent);
+    }
+
+    //
 }
