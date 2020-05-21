@@ -95,67 +95,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\LG
 activity#com.example.myfirstapplication.AppUpdate
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:9-16:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:45-87
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:45-109
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:19-44
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:13-104
+ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:13-126
 	android:value
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:73-102
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:73-124
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:24-70
 activity#com.example.myfirstapplication.IntroMyself
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:9-20:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:47-89
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:47-111
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:19-46
 activity#com.example.myfirstapplication.MyGitHub
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:9-23:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:44-86
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:44-108
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:21:19-43
 activity#com.example.myfirstapplication.MyBlog
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:25:9-27:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:25:42-84
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:25:42-106
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:25:19-41
 activity#com.example.myfirstapplication.OperateData
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:28:9-30:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:28:47-89
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:28:47-111
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:28:19-46
 activity#com.example.myfirstapplication.LearnContent
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:32:9-34:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:32:48-90
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:32:48-112
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:32:19-47
 activity#com.example.myfirstapplication.MyPosition
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:36:9-38:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:36:46-88
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:36:46-110
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:36:19-45
 activity#com.example.myfirstapplication.CurrentPosition
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:40:9-42:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:40:51-93
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:40:51-115
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:40:19-50
 activity#com.example.myfirstapplication.DisplayMessageActivity
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:43:9-45:20
 	android:parentActivityName
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:43:58-100
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:43:58-122
 	android:name
 		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:43:19-57
-activity#com.example.myfirstapplication.MainActivity
+activity#com.example.myposition.MainActivity
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:46:9-51:20
 	android:name
-		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:46:19-47
+		ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:46:19-69
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:47:13-50:29
 action#android.intent.action.MAIN

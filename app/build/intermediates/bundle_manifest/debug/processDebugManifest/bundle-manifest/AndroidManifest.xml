@@ -30,68 +30,68 @@
         android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.myfirstapplication.AppUpdate"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.IntroMyself"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.MyGitHub"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.MyBlog"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.OperateData"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.LearnContent"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.MyPosition"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.CurrentPosition"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
         <activity
             android:name="com.example.myfirstapplication.DisplayMessageActivity"
-            android:parentActivityName="com.example.myfirstapplication.MainActivity" >
+            android:parentActivityName="com.example.myposition.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.myposition.MainActivity" />
         </activity>
-        <activity android:name="com.example.myfirstapplication.MainActivity" >
+        <activity android:name="com.example.myposition.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

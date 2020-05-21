@@ -152,10 +152,6 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\b64f80842d3d302e8b4275c4ce2e897c\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_message.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\activity_display_message.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\5530aaca1a1eacac058d447633f32067\\jetified-play-services-base-16.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
@@ -248,10 +244,6 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_learn_content.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\learn_content.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -294,10 +286,6 @@
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\b64f80842d3d302e8b4275c4ce2e897c\\media-1.0.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_intro_myself.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\intro_myself.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -452,10 +440,6 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_v.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\layout_v.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
@@ -502,10 +486,6 @@
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_current_position.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\current_position.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
@@ -598,10 +578,6 @@
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -720,12 +696,12 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
-        "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\layout\\abc_tooltip.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\layout\\abc_tooltip.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -746,10 +722,6 @@
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_operate_data.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\operate_data.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -912,10 +884,6 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_blog.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\my_blog.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
@@ -962,10 +930,6 @@
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_picture.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\layout_picture.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
@@ -1352,10 +1316,6 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\5530aaca1a1eacac058d447633f32067\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_update.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\app_update.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
@@ -1664,10 +1624,6 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_github.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\my_github.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\color\\abc_tint_btn_checkable.xml"
     },
@@ -1812,16 +1768,8 @@
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_h.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\layout_h.xml"
-    },
-    {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\LGANA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_whereis_lgana.xml.flat",
-        "source": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\src\\main\\res\\layout\\whereis_lgana.xml"
     },
     {
         "merged": "C:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
