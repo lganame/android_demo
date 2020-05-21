@@ -1,0 +1,4 @@
+#Thu May 21 17:29:35 CST 2020
+base.0=C\:\\Users\\LGANA\\AndroidStudioProjects\\MyFirstApplication\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
