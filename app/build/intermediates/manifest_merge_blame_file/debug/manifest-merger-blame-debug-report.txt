@@ -47,48 +47,47 @@
 28-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:11:9-54
 29        android:supportsRtl="true"
 29-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:13:10-36
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme"
-31-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:9-40
-32        android:usesCleartextTraffic="true" >
-32-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:12:9-44
-33        <activity android:name="com.example.myposition.MainActivity" >
-33-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:9-20:20
-33-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:19-69
-34            <intent-filter>
-34-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:16:13-19:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:17:17-69
-35-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:17:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:17-77
-37-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:27-74
-38            </intent-filter>
-39        </activity>
-40        <!-- Needs to be explicitly declared on P+ -->
-41        <uses-library
-41-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
-42            android:name="org.apache.http.legacy"
-42-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
-43            android:required="false" />
-43-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
-44
-45        <activity
-45-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-46-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-47            android:exported="false"
-47-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-48-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-49
-50        <meta-data
-50-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-51            android:name="com.google.android.gms.version"
-51-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-52            android:value="@integer/google_play_services_version" />
-52-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-53    </application>
-54
-55</manifest>
+30        android:theme="@style/AppTheme"
+30-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:14:9-40
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:12:9-44
+32        <activity android:name="com.example.myposition.MainActivity" >
+32-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:9-20:20
+32-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:15:19-69
+33            <intent-filter>
+33-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:16:13-19:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:17:17-69
+34-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:17:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:17-77
+36-->C:\Users\LGANA\AndroidStudioProjects\MyFirstApplication\app\src\main\AndroidManifest.xml:18:27-74
+37            </intent-filter>
+38        </activity>
+39        <!-- Needs to be explicitly declared on P+ -->
+40        <uses-library
+40-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+41            android:name="org.apache.http.legacy"
+41-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+42            android:required="false" />
+42-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\e5c88e1627e15e2bad6b8adc1a65c1e6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+43
+44        <activity
+44-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+45            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+45-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+46            android:exported="false"
+46-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+47            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+47-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\5530aaca1a1eacac058d447633f32067\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+48
+49        <meta-data
+49-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+50            android:name="com.google.android.gms.version"
+50-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+51            android:value="@integer/google_play_services_version" />
+51-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\LGANA\.gradle\caches\transforms-2\files-2.1\f788e9c3c6f35e47fdf5334ecbb52dd6\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+52    </application>
+53
+54</manifest>
