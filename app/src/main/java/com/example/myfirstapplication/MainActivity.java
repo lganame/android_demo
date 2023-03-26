@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.myfirstapplication.teach.CustomListVIew;
+
 
 public class MainActivity extends AppCompatActivity {
 public static final String EXTRA_MESSAGE = "com.example.myfirstapplication.MESSAGE";
@@ -61,6 +63,10 @@ public void startMyPosition(View view){
 
         Intent intent = new Intent(this,XiuRen.class);
         switch(view.getId()){
+            case R.id.button12:{
+                startActivity(intent.putExtra("url","https://github.com/lganame"));
+                break;
+            }
             case R.id.button15:{
                 startActivity(intent.putExtra("url","https://www.kanxiaojiejie.com"));
                 break;
@@ -73,12 +79,14 @@ public void startMyPosition(View view){
                 startActivity(intent.putExtra("url","https://zhimeishe.com"));
                 break;
             }
-
             default:{
                 startActivity(intent.putExtra("url","https://www.baidu.com"));
-
             }
         }
+    }
+    public void startTeach(View view){
+        Intent intent = new Intent(this, CustomListVIew.class);
+        startActivity(intent);
     }
 
 

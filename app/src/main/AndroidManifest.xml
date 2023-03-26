@@ -18,10 +18,6 @@
         <activity android:name=".IntroMyself" android:parentActivityName=".MainActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
         </activity>
-        <activity android:name=".MyGitHub" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
-        </activity>
-
         <activity android:name=".MyBlog" android:parentActivityName=".MainActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
         </activity>
@@ -46,7 +42,9 @@
         <activity android:name=".XiuRen" android:parentActivityName=".MainActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
         </activity>
-
+        <activity android:name=".teach.CustomListVIew" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
