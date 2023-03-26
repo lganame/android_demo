@@ -18,6 +18,7 @@
     <string name="appupdate">应用升级</string>
     <string name="mygithub">我的github</string>
     <string name="intromyself">个人介绍</string>
+    <string name="xiuren">秀人网</string>
 
     <!--这是一个字符串资源文件，您可在此文件中指定所有界面字符串。该文件可让您在一个位置管理所有界面字符串，使字符串的查找，更新和本地化变得更加容易 -->
     <!--Edit translations for all locales in the translaitns eiditon 右边出现Open editior-->

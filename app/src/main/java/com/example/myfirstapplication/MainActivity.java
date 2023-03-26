@@ -7,6 +7,7 @@ import android.hardware.display.DisplayManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -52,5 +53,33 @@ public void startMyPosition(View view){
         Intent intent = new Intent(this,AppUpdate.class);
         startActivity(intent);
     }
+    public void  startXiuRen(View view){
+        System.out.println(view.getId());
+        Toast.makeText(MainActivity.this,view.getId()+"",Toast.LENGTH_SHORT).show();
+        /*switch(view.getId()){
+        }*/
+
+        Intent intent = new Intent(this,XiuRen.class);
+        switch(view.getId()){
+            case R.id.button15:{
+                startActivity(intent.putExtra("url","https://www.kanxiaojiejie.com"));
+                break;
+            }
+            case R.id.button16:{
+                startActivity(intent.putExtra("url","http://www.1fuhskex.com/pc/index.html#/"));
+                break;
+            }
+            case R.id.button17:{
+                startActivity(intent.putExtra("url","https://zhimeishe.com"));
+                break;
+            }
+
+            default:{
+                startActivity(intent.putExtra("url","https://www.baidu.com"));
+
+            }
+        }
+    }
+
 
 }
