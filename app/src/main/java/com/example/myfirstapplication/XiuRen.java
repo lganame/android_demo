@@ -49,14 +49,7 @@ public class XiuRen extends AppCompatActivity {
         swipeRefresh = (SwipeRefreshLayout)view.findViewById(R.id.swipe_contain);
         //设置触发下拉刷新的距离
         swipeRefresh.setDistanceToTriggerSync(300);
-        swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                //重新加载刷新页面
-                Toast.makeText(XiuRen.this,"刷新页面中",Toast.LENGTH_LONG).show();
-                webView.loadUrl(webView.getUrl());
-            }
-        });
+        swipeRefresh.setOnRefreshListener(listener);
         //首次启动刷新页面
         swipeRefresh.post(new Runnable() {
             @Override
@@ -102,6 +95,15 @@ public class XiuRen extends AppCompatActivity {
         });
 
     }
+
+    private SwipeRefreshLayout.OnRefreshListener listener = new SwipeRefreshLayout.OnRefreshListener() {
+        @Override
+        public void onRefresh() {
+            //重新加载刷新页面
+            Toast.makeText(XiuRen.this,"刷新页面中",Toast.LENGTH_LONG).show();
+            webView.loadUrl(webView.getUrl());
+        }
+    };
     /**
      * 使点击回退按钮不会直接退出整个应用程序而是返回上一个页面
      *

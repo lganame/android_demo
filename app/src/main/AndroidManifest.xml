@@ -2,6 +2,64 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myfirstapplication">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 修改声音设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 外部存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 打开闪光灯 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- 许可振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 许可使用照相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 许可调用相机硬件 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- 许可调用相机自动对焦 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 许可拨打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 许可连接网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 读取默认设置 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- 唤醒锁 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 改变WIFI状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 访问WIFI状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获得TASK任务栈 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 写设置 -->
+    <!--只允许系统应用使用-->
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 只允许系统应用使用-->
+    <!--<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+
+    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 用于读取手机当前的状态 权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,41 +69,41 @@
          android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".AppUpdate" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".AppUpdate" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
 
-        <activity android:name=".IntroMyself" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".IntroMyself" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
-        <activity android:name=".MyBlog" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".MyBlog" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
-        <activity android:name=".OperateData" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
-        </activity>
-
-        <activity android:name=".LearnContent" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".OperateData" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
 
-        <activity android:name=".MyPosition" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".LearnContent" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
 
-        <activity android:name=".CurrentPosition" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".MyPosition" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
-        <activity android:name=".DisplayMessageActivity" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+
+        <activity android:name=".CurrentPosition" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
-        <activity android:name=".XiuRen" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".DisplayMessageActivity" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
-        <activity android:name=".teach.CustomListVIew" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivity"/>
+        <activity android:name=".XiuRen" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".teach.CustomListVIew" android:parentActivityName=".MainActivityOrigin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
+        </activity>
+        <activity android:name=".MainActivityOrigin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
