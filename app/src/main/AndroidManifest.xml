@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myfirstapplication">
-    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- 修改声音设置 -->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <!-- 外部存储 -->
@@ -68,8 +67,7 @@
         android:usesCleartextTraffic="true"
          android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-                <activity android:name=".AppUpdate" android:parentActivityName=".MainActivityOrigin">
+            <activity android:name=".AppUpdate" android:parentActivityName=".MainActivityOrigin">
             <meta-data android:name="android.support.PARENT_ACTIVITY"   android:value=".MainActivityOrigin"/>
         </activity>
 
@@ -109,7 +107,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".MainActivityOrigin"
+                  android:label="@string/origin_my_first_app">
+        </activity>
         <activity
             android:name=".module.ui.UIMainActivity"
             android:label="@string/title_activity_uimain" />

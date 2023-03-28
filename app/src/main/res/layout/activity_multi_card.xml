@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <com.von.voncat.module.ui.card.MultiCard.MultiCardMenu
+            <com.example.myfirstapplication.module.ui.card.MultiCard.MultiCardMenu
                 android:id="@+id/multi_card_menu"
                 android:layout_width="match_parent"
                 android:layout_height="600dp"
@@ -509,11 +509,11 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-                    <android.support.v4.view.ViewPager
+                    <!--<android.support.v4.view.ViewPager
                         android:id="@+id/view_pager"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" >
-                    </android.support.v4.view.ViewPager>
+                    </android.support.v4.view.ViewPager>-->
                 </LinearLayout>
 
                 <LinearLayout
@@ -538,7 +538,7 @@
                         android:layout_height="match_parent"
                         android:background="#E0A09E" />
                 </LinearLayout>
-            </com.von.voncat.module.ui.card.MultiCard.MultiCardMenu>
+            </com.example.myfirstapplication.module.ui.card.MultiCard.MultiCardMenu>
         </LinearLayout>
     </ScrollView>
 

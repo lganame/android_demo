@@ -123,7 +123,7 @@ public class MultiCardActivity extends Activity  implements OnClickListener{
 				R.drawable.qa, R.drawable.ent, R.drawable.nuan1,
 				R.drawable.nuan2, R.drawable.ic_launcher, R.drawable.qa,
 				R.drawable.ent };
-		final ViewPager mViewPager = (ViewPager) findViewById(R.id.view_pager);
+		/*final ViewPager mViewPager = (ViewPager) findViewById(R.id.view_pager);
 		mViewPager.setAdapter(new PagerAdapter() {
 			@Override
 			public int getCount() {
@@ -148,7 +148,7 @@ public class MultiCardActivity extends Activity  implements OnClickListener{
 				container.addView(imageView);
 				return imageView;
 			}
-		});
+		});*/
 
 		ListView listView = (ListView) findViewById(R.id.lv);
 		listView.setAdapter(new ArrayAdapter<>(this,

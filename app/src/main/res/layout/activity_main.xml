@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,49 +9,49 @@
     android:clipToPadding="true"
     android:fitsSystemWindows="true"
     android:gravity="center_horizontal"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <include
+        layout="@layout/common_title_layout"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/common_title_layout" />
+        android:layout_height="wrap_content" />
 
-    <LinearLayout
-        android:id="@+id/LinearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:gravity="center_horizontal"
-        android:orientation="vertical" >
 
-        <RelativeLayout
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" >
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-            <ListView
-                android:id="@+id/listView_main"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-            </ListView>
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
-            <GridView
-                android:id="@+id/gridView_main"
+               <ListView
+                    android:id="@+id/listView_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></ListView>
+
+                <GridView
+                    android:id="@+id/gridView_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="3"></GridView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_hello_world"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:numColumns="3" >
-            </GridView>
-        </RelativeLayout>
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/change_layout"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tv_hello_world"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="20dp"
-            android:text="@string/change_layout"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-    </LinearLayout>
 
 </LinearLayout>

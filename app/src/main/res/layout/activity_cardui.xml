@@ -19,12 +19,12 @@
             android:layout_height="wrap_content"
             layout="@layout/common_title_layout" />
 
-        <com.von.voncat.module.ui.card.cardui.CardView
+        <com.example.myfirstapplication.module.ui.card.cardui.CardView
             android:id="@+id/cardsview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
-        </com.von.voncat.module.ui.card.cardui.CardView>
+        </com.example.myfirstapplication.module.ui.card.cardui.CardView>
     </LinearLayout>
 
 </RelativeLayout>

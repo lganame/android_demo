@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         layout="@layout/common_title_layout" />
 
-        <com.von.voncat.module.ui.progress.RoundProgressBar.RoundProgressBar
+        <com.example.myfirstapplication.module.ui.progress.RoundProgressBar.RoundProgressBar
             android:id="@+id/roundProgressBar1"
             android:layout_width="270dp"
             android:layout_height="270dp"

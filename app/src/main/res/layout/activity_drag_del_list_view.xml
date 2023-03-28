@@ -20,7 +20,7 @@
         android:background="@color/white"
         android:layout_gravity="center_horizontal">
 
-        <com.von.voncat.module.ui.listview.DragDelListView.DragDelListView
+        <com.example.myfirstapplication.module.ui.listview.DragDelListView.DragDelListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

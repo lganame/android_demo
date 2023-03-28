@@ -48,7 +48,9 @@ public class DragDelListView extends ListView {
 			if(oldPosition==mTouchPosition ||closed)
 			{
 				moveable=true;
-				mTouchView.mDownX =(int)mDownX;
+				if(mTouchView!=null) {
+					mTouchView.mDownX = (int) mDownX;
+				}
 			}else
 			{
 				moveable=false;
@@ -64,7 +66,7 @@ public class DragDelListView extends ListView {
 			if (Math.abs(mDownX-ev.getX()) < Math.abs(mDownY-ev.getY()) * dp2px(2)) {
                 break;  
             }  
-			if (moveable) 
+			if (moveable&&mTouchView!=null)
 			{
 				int dis = (int) (mTouchView.mDownX -ev.getX());
 				if(mTouchView.state==mTouchView.STATE_OPEN)
